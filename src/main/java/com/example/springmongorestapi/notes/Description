@@ -1,0 +1,18 @@
+### MongoDB Nedir? ###
+* Döküman tabanlı bir NoSQL veritabanıdır. Verileri yapısal olarak Json formatında ve documentlar halinde collectionlar içerisinde tutmaktadır.
+* Herhangi bir alana yahut aralığa göre sorgu yazılabilmektedir.
+* Yani aslında burada NoSQL veritabanı demek herhangi bir tablo şeklinde tutulmayan Json formatında tutulmasından dolayıda diyebiliriz
+* NoSQL ise anahtar/değer(key/value) ilişkisi mantığına dayalı yapıda veritabanlarına sahiptir
+* Bol ziyaretçi trafiğine sahip ve yoğun işlemler gerektiren durumlarda yani maliyetin hat safhada olduğu durumlarda ilişkisel veritabanı sistemlerine
+ (RDBMS – Relational Database Management System) nazaran maliyeti daha rahat karşılayabilmek için geliştirilmiş bir sistemdir.
+* İlişkisel veritabanlarında veriler tablolarda sütun bazlı satır satır barındırılırken; NoSQL’de tablolarda değil, document(döküman) yapılarında JSON olarak barındırılır.
+Bu yapılar sayesinde; ilişkisel veritabanlarındaki tablolarda çizilmiş sınırlar tüm veriler için geçerliyken, NoSQL’de böyle bir sınırlılık geçerli değildir.
+Yani herhangi bir veride herhangi bir kolon özel bir işlem gerektirmeksizin eklenebilir ya da çıkarılabilir ve bu işlemin tüm veriler için geçerli olması gerekmemektedir.
+
+* MongoDB’de ki yapıları ilişkisel veritabanlarındaki yapılarla kıyaslarsak eğer;
+
+        MongoDB                         RDBMS ( Relational Database Management System)
+      Collection        =>              Tablo
+      Document          =>              Satır
+
+* RDBMS’de bir tablo içerisindeki tüm satırlar kolon açısından birebir aynı iken, MongoDB’de documentler arasında farklı kolonlar/alanlar barıdırılabilir.
